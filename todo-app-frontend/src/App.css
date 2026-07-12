@@ -1,0 +1,37 @@
+.todo-app {
+  max-width: 480px;
+  margin: 40px auto;
+  padding: 0 16px;
+}
+
+.todo-app form {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.todo-app input[type='text'] {
+  flex: 1;
+  padding: 8px;
+}
+
+.todo-app ul {
+  list-style: none;
+  padding: 0;
+}
+
+.todo-app li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 0;
+}
+
+.todo-app li span {
+  flex: 1;
+}
+
+.todo-app li span.completed {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
