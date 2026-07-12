@@ -5,7 +5,7 @@ const PORT = process.env.PORT || 3000;
 
 const ALLOWED_ORIGINS = [
   'http://localhost:5173',
-  'https://TranDuong05-la.github.io',
+  'https://tranduong05-la.github.io',
 ];
 
 let tasks = [];
